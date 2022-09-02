@@ -1,0 +1,26 @@
+.footer {
+    background: linear-gradient(202.06deg, #F2C917 14.42%, #FFB800 77.68%);
+}
+
+.nav-item {
+    position: relative;
+    padding-bottom: 5px;
+    color: #00385F;
+}
+.nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

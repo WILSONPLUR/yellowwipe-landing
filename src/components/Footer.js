@@ -9,9 +9,9 @@ const Footer = () => {
     return (
         <footer className="footer pb-10">
             <Container>
-                <div className="footer__content flex flex-col items-center xxl:after:content-[''] xxl:after:h-0.5 xxl:after:bg-dblue after:opacity-20 xxl:after:min-w-full" >
+                <div className="footer__content flex flex-col items-center xxl:after:content-[''] xxl:after:h-0.5 xxl:after:bg-dblue after:opacity-20 xxl:after:w-screen">
                     <img src={Logo} className="pt-7 pb-7" />
-                    <nav className="flex psm:hidden xxl:pb-10 xxl:flex-row xxl:justify-between xxl:items-center psm:flex-col psm:items-center psm:justify-center">
+                    <nav className="flex psm:hidden xxl:flex xxl:pb-10 xxl:flex-row xxl:justify-between xxl:items-center psm:flex-col psm:items-center psm:justify-center">
                         <a className="nav-item text-dblue xxl:mr-8 psm:mr-0 font-bold text-sm" href="#">Sobre nós</a>
                         <a className="nav-item text-dblue xxl:mr-8 psm:mr-0 font-bold text-sm" href="#">Soluções</a>
                         <a className="nav-item text-dblue xxl:mr-8 psm:mr-0 font-bold text-sm" href="#">Vagas</a>
@@ -19,7 +19,7 @@ const Footer = () => {
                         <a className="nav-item text-dblue xxl:mr-8 psm:mr-0 font-bold text-sm xxl:flex xxl:items-center" href="#"><span><img className="h-5 w-5" src={Icon} /></span> Idioma</a>
                     </nav>
                 </div>
-                <div className="flex psm:flex-col justify-between items-center mt-7">
+                <div className="flex xxl:flex-row psm:flex-col justify-between items-center mt-7">
                     <div>
                         <h3 className="text-white text-sm font-medium">
                             &copy; 2021 YELLOWIPE
